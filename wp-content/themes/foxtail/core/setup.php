@@ -76,7 +76,7 @@ if (!function_exists('foxtail_setup'))
  * ==========> Create custom taxonomy and custom post type
  */
 //add_action('init', 'foxtail_create_custom_taxonomies');
-//add_action('init', 'foxtail_create_custom_post_types');
+add_action('init', 'foxtail_create_custom_post_types');
 
 function foxtail_create_custom_taxonomies()
 {
@@ -102,15 +102,15 @@ function foxtail_create_custom_taxonomies()
 
 function foxtail_create_custom_post_types()
 {
-    register_post_type('slider', array(
+    register_post_type('faq', array(
         'labels' => array(
-            'name' => 'Sliders', // Tên post type dạng số nhiều
-            'singular_name' => 'Slider' // Tên post type dạng số ít
+            'name' => 'FAQs', // Tên post type dạng số nhiều
+            'singular_name' => 'FAQ' // Tên post type dạng số ít
         ),
-        'description' => 'Sliders', // Mô tả của post type
+        'description' => 'Hỏi đáp', // Mô tả của post type
         'supports' => array(
             'title',
-            'thumbnail'
+            'editor',
         ), // Các tính năng được hỗ trợ trong post type
 
         'public' => true, // Kích hoạt post type
@@ -122,7 +122,7 @@ function foxtail_create_custom_post_types()
         'menu_icon' => 'dashicons-images-alt2', // Đường dẫn tới icon sẽ hiển thị
         'can_export' => true, // Có thể export nội dung bằng Tools -> Export
         'has_archive' => false, // Cho phép lưu trữ (month, date, year)
-        'exclude_from_search' => true, // Loại bỏ khỏi kết quả tìm kiếm
+        'exclude_from_search' => false, // Loại bỏ khỏi kết quả tìm kiếm
         'publicly_queryable' => true, // Hiển thị các tham số trong query, phải đặt true
         'capability_type' => 'post' //
     ));
@@ -154,31 +154,6 @@ function foxtail_create_custom_post_types()
 //        'taxonomies' => array('post_tag')
 //    ));
 
-    register_post_type('customer', array(
-        'labels' => array(
-            'name' => 'Customers', // Tên post type dạng số nhiều
-            'singular_name' => 'Customer' // Tên post type dạng số ít
-        ),
-        'description' => 'Customer Comments', // Mô tả của post type
-        'supports' => array(
-            'title',
-            'thumbnail',
-            'editor'
-        ), // Các tính năng được hỗ trợ trong post type
-
-        'public' => true, // Kích hoạt post type
-        'show_ui' => true, // Hiển thị khung quản trị như Post/Page
-        'show_in_menu' => true, // Hiển thị trên Admin Menu (tay trái)
-        'show_in_nav_menus' => true, // Hiển thị trong Appearance -> Menus
-        'show_in_admin_bar' => true, // Hiển thị trên thanh Admin bar màu đen.
-        'menu_position' => 7, // Thứ tự vị trí hiển thị trong menu (tay trái)
-        'menu_icon' => 'dashicons-smiley', // Đường dẫn tới icon sẽ hiển thị
-        'can_export' => true, // Có thể export nội dung bằng Tools -> Export
-        'has_archive' => false, // Cho phép lưu trữ (month, date, year)
-        'exclude_from_search' => true, // Loại bỏ khỏi kết quả tìm kiếm
-        'publicly_queryable' => true, // Hiển thị các tham số trong query, phải đặt true
-        'capability_type' => 'post'
-    ));
 }
 
 /**
