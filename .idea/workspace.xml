@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4d806d-2fed-478f-8262-0c3bcb59598e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/img/menu-hover.png" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/img/menu-hover.png" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\call-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\fb-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\g-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\home-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\product-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\search-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\viber-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img\zalo-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\uploads\2017\02\slider-1024x216.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\wamp64\www\gasnano\wp-content\uploads\2017\02\slider-768x162.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-1.png" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-2.png" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-3.png" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-4.png" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/img/partner-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-150x150.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-220x180.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-220x180.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-300x63.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-300x63.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-55x55.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider-55x55.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/02/slider.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/foxtail/template-homepage.php" afterPath="$PROJECT_DIR$/wp-content/themes/foxtail/template-homepage.php" />
@@ -71,8 +90,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.076923">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="-27.461538">
+              <caret line="53" column="117" selection-start-line="53" selection-start-column="117" selection-end-line="53" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -81,23 +100,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61195654">
-              <caret line="305" column="22" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-homepage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/template-homepage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.961538">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.88664424">
+              <caret line="381" column="21" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -106,8 +110,20 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.5">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+            <state vertical-scroll-proportion="-27.846153">
+              <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+              <folding>
+                <marker date="1487929436206" expanded="true" signature="4832:4852" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-homepage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/template-homepage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.115385">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -116,8 +132,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3103447">
-              <caret line="1113" column="8" selection-start-line="1113" selection-start-column="8" selection-end-line="1113" selection-end-column="8" />
+            <state vertical-scroll-proportion="-12.0">
+              <caret line="4518" column="0" selection-start-line="4518" selection-start-column="0" selection-end-line="4518" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,9 +149,9 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/foxtail/core/setup.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/foxtail/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/foxtail/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/foxtail/template-homepage.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/foxtail/style.css" />
       </list>
     </option>
@@ -298,6 +314,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="header" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gasnano" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gasnano" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foxtail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -338,6 +384,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\wamp64\www\gasnano\wp-content\themes\foxtail\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -436,47 +487,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="4518" column="0" selection-start-line="4518" selection-start-column="0" selection-end-line="4518" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.076923">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="-27.461538">
+          <caret line="53" column="117" selection-start-line="53" selection-start-column="117" selection-end-line="53" selection-end-column="117" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.5">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="-27.846153">
+          <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+          <folding>
+            <marker date="1487929436206" expanded="true" signature="4832:4852" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/template-homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.961538">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3103447">
-          <caret line="1113" column="8" selection-start-line="1113" selection-start-column="8" selection-end-line="1113" selection-end-column="8" />
+        <state vertical-scroll-proportion="-28.115385">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/foxtail/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61195654">
-          <caret line="305" column="22" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.88664424">
+          <caret line="381" column="21" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
           <folding />
         </state>
       </provider>

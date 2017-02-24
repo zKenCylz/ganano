@@ -44,30 +44,30 @@ global $foxtail_options;
 <header id="header">
 	<div class="container">
 		<div id="header-wrap" class="clearfix">
-
-			<div class="header-logo col-xs-12 col-sm-12 col-md-3 col-lg-3">
-
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="">
-
+			<div class="header-logo pull-left">
+                <a href="<?php echo home_url( '/' ) ?>">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo( 'description' ) ?>" />
+                </a>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
-
-            </div>
-            <div id="header-search" class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <div id="tu-van">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tu-van.png" alt="">
+            <div class="header-socials pull-right">
+                <div>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/header/facebook.png" alt="Facebook" /></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/header/google.png" alt="Google Plus" /></a>
                 </div>
-                <form class="search_form" method="get" action="<?php echo home_url('/') ?>">
-                    <input type="text" name="s" placeholder="Tìm kiếm" class="search_field">
-                    <input type="hidden" name="post_type" value="post">
-                    <button class="search_button" type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                <div>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/header/viber.png" alt="Viber" /></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/header/zalo.png" alt="Zalo" /></a>
+                </div>
             </div>
-            <div id="social-icon" class="col-xs-12 col-sm-6 col-md-3 col-lg-1">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                <i class="fa fa-google-plus" aria-hidden="true"></i>
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                <i class="fa fa-google-plus" aria-hidden="true"></i>
+            <div class="header-right pull-right">
+                <a href="tel:0977758686" class="hotline">
+                    TƯ VẤN MIỄN PHÍ<br><span>0977758686</span>
+                </a>
+                <form class="search-form" method="get" action="<?php echo home_url( '/' ) ?>">
+                    <input type="text" name="s" placeholder="Tìm kiếm" class="search-input">
+                    <input type="hidden" name="post_type" value="post">
+                    <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </div>
         </div>
     </div>
@@ -75,21 +75,39 @@ global $foxtail_options;
 
 <div id="main-nav-wrap">
 	<div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
 
-		<?php
-        wp_nav_menu( array(
-            'menu'              => 'nav-menu',
-            'menu_id' => 'main-nav-menu',
-            'theme_location' => 'main-nav',
-            'depth'             => 2,
-            'container' => 'nav',
-            'container_class'   => 'nav collapse navbar-collapse',
-            'container_id'      => 'bs-example-navbar-collapse-1',
-            'menu_class'        => 'nav navbar-nav',
-            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-            'walker'            => new wp_bootstrap_navwalker())
-        );
-        ?>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <?php
+                    wp_nav_menu( array(
+                            'menu'              => 'nav-menu',
+                            'menu_id' => 'main-nav-menu',
+                            'theme_location' => 'main-nav',
+                            'depth'             => 2,
+                            'container' => false,
+                            'menu_class'        => 'nav navbar-nav',
+                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                            'walker'            => new wp_bootstrap_navwalker())
+                    );
+                    ?>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
         <script>
             jQuery("#main-nav-menu li.menu-item-has-children").mouseover(function() {
                 jQuery(this).find("ul.dropdown-menu").show();
@@ -99,7 +117,7 @@ global $foxtail_options;
         </script>
 </div>
 </div>
-<div class="box main-slider">
+<div class="main-slider">
 
             <?php echo do_shortcode( '[rev_slider alias="main-slider"]' ) ?>
 

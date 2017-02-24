@@ -41,10 +41,31 @@ if (have_posts()) while(have_posts()):
                 <div class="wrap">
                     <h1 class="title text-center"><a href="#">GASNANO</a></h1>
                     <div class="content">
-                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
-                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
-                        <div class="text-right">
-                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        <div class="list-news">
+                            <div class="item clearfix">
+                                <a href="#" class="post-thumbnail pull-left">
+                                    <img src="<?php echo get_template_directory_uri() ?>/img/img.jpg" />
+                                </a>
+                                <a href="#"><h3 class="entry-title">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là ...</h3></a>
+                            </div>
+                            <div class="item clearfix">
+                                <a href="#" class="post-thumbnail pull-left">
+                                    <img src="<?php echo get_template_directory_uri() ?>/img/img.jpg" />
+                                </a>
+                                <a href="#"><h3 class="entry-title">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là ...</h3></a>
+                            </div>
+                            <div class="item clearfix">
+                                <a href="#" class="post-thumbnail pull-left">
+                                    <img src="<?php echo get_template_directory_uri() ?>/img/img.jpg" />
+                                </a>
+                                <a href="#"><h3 class="entry-title">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là ...</h3></a>
+                            </div>
+                            <div class="item clearfix">
+                                <a href="#" class="post-thumbnail pull-left">
+                                    <img src="<?php echo get_template_directory_uri() ?>/img/img.jpg" />
+                                </a>
+                                <a href="#"><h3 class="entry-title">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là ...</h3></a>
+                            </div>
                         </div>
                     </div>
                 </div>
