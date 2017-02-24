@@ -12,7 +12,7 @@ global $foxtail_options;
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-logo.png" alt="">
             </div>
             <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                <p>Sản phẩm khác</p>
+                <h4>Sản phẩm khác</h4>
                 <div class="owl-carousel owl-theme">
                     <div class="item"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partner-1.png" alt=""> </div>
                     <div class="item"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partner-2.png" alt=""> </div>
