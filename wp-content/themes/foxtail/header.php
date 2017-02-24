@@ -43,7 +43,7 @@ global $foxtail_options;
 </header><!-- /header -->
 <header id="header">
 	<div class="container">
-		<div id="header-wrap" class="clearfix" style="background: url(<?php echo $foxtail_options['header-background']['url'] ?>)">
+		<div id="header-wrap" class="clearfix">
 
 			<div class="header-logo col-xs-12 col-sm-12 col-md-3 col-lg-3">
 

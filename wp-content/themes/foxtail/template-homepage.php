@@ -13,12 +13,77 @@ if (have_posts()) while(have_posts()):
     <div class="container">
       <div class="container-inner">
         <div class="row">
-
-            <div id="category" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <h1 id="title">GASNANO</h1>
-                <img width="100%" src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="">
-                <p>Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
-                <a class="btn btn-primary" href="#" title="">Xem chi tiết</a>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <div class="wrap">
+                    <h1 class="title text-center"><a href="#">GASNANO</a></h1>
+                    <div class="content">
+                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
+                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
+                        <div class="text-right">
+                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <div class="wrap">
+                    <h1 class="title text-center"><a href="#">GASNANO</a></h1>
+                    <div class="content">
+                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
+                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
+                        <div class="text-right">
+                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <div class="wrap">
+                    <h1 class="title text-center"><a href="#">GASNANO</a></h1>
+                    <div class="content">
+                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
+                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
+                        <div class="text-right">
+                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <div class="wrap">
+                    <h1 class="title text-center"><a href="#">GASNANO</a></h1>
+                    <div class="content">
+                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
+                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
+                        <div class="text-right">
+                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <div class="wrap">
+                    <h1 class="title text-center"><a href="#">GASNANO</a></h1>
+                    <div class="content">
+                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
+                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
+                        <div class="text-right">
+                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <div class="wrap">
+                    <h1 class="title text-center"><a href="#">GASNANO</a></h1>
+                    <div class="content">
+                        <a href="#" class="box-thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.jpg" alt="" /></a>
+                        <p class="excerpt">Nhiều người cho rằng: rượu bia, đồ ăn cay nóng chính là nguyên nhân khiến đâu dạ dày tái phát.. </p>
+                        <div class="text-right">
+                            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

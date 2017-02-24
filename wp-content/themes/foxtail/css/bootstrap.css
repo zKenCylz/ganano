@@ -48,6 +48,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  text-decoration: none !important;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -85,6 +86,7 @@ sub {
 }
 img {
   border: 0;
+  max-width: 100%;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -1082,8 +1084,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1184,7 +1186,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.1;
   color: inherit;
 }
@@ -3551,7 +3553,7 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 10px 20px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;

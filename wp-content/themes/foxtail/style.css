@@ -138,6 +138,7 @@ a img.aligncenter {
 }
 
 /* =========================== */
+
 body {
     background: none !important;
 }
@@ -193,7 +194,7 @@ form.search_form button.search_button {
 
 /* Main Nav */
 #main-nav-wrap {
-    border-bottom: 2px solid #ef5827;
+    border-bottom: 4px solid #f59936;
 }
 nav.nav {
     margin-left: 60px;
@@ -202,25 +203,20 @@ nav.nav {
 nav.nav ul#main-nav-menu>li {
     height: 50px;
     font-size: 17px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
-nav.nav ul#main-nav-menu>li a{
+nav.nav ul#main-nav-menu li a{
     color: #fe0000;
-    text-decoration: none;
+    text-transform: uppercase;
 }
 
-nav.nav ul#main-nav-menu>li.current-menu-item {
-    background: url('../foxtail/img/menu-hover.png');
-    background-color: rgba(255, 255, 255, 0) !important;
+nav.nav ul#main-nav-menu>li.current-menu-item, nav.nav ul#main-nav-menu>li:hover {
+    background: url('../foxtail/img/menu-hover.png') repeat-x #f47c26;
 }
 
 nav.nav ul#main-nav-menu>li.current-menu-item a {
     color: #fff;
-}
-
-nav.nav ul#main-nav-menu>li:hover {
-    background: url('../foxtail/img/menu-hover.png');
 }
 
 nav.nav ul#main-nav-menu>li:hover > a {
@@ -236,9 +232,7 @@ nav.nav ul#main-nav-menu>li>ul.dropdown-menu {
 }
 
 nav.nav ul#main-nav-menu>li>ul.dropdown-menu > li{
-    height: 30px;
     border: 1px solid #f9a618;
-    width: 200px;
 }
 
 nav.nav ul#main-nav-menu>li>ul.dropdown-menu > li > a {
@@ -287,4 +281,41 @@ footer#footer .row {
 
 .owl-dots {
     display: none !important;
+}
+
+/** MAIN HOME */
+
+.main-home {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.box .wrap {
+    border-radius: 25px;
+    border: solid 1px #ddd;
+    background: #f2f2f2;
+    margin-bottom: 40px;
+}
+.box .title {
+    margin: 0;
+    padding: 15px 0;
+    font-size: 25px;
+    background: #f9a618;
+    border-radius: 25px 25px 0 0;
+}
+.box .content {
+    padding: 15px 25px;
+}
+.box .title a {
+    color: #fff;
+}
+.box .read-more {
+    display: inline-block;
+    border-radius: 5px;
+    background: #fbaf41;
+    color: #fff;
+    padding: 3px 8px;
+}
+.box-thumbnail {
+    display: block;
+    margin-bottom: 10px;
 }
