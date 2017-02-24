@@ -17,5 +17,8 @@
         </h3>
 
         <div class="post-excerpt"><?php the_excerpt() ?></div>
+        <div class="text-right">
+            <a class="read-more" href="#" title="Xem chi tiết">Xem chi tiết</a>
+        </div>
     </div>
 </article>

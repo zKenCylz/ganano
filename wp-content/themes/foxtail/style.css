@@ -339,8 +339,31 @@ footer#footer .row {
 /* ARCHIEVE */
 .archive-title {
     color: #f9a618;
+    margin: 25px 0 45px -10px;
 }
 
+article.post {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.post .post-title {
+    margin-top: 0;
+}
+.post .post-title a {
+    color: #fcaf3b;
+    font-size: 20px;
+
+}
 .post-excerpt{
     text-align: justify;
+    margin-right: 20px;
+}
+
+.post .read-more {
+    display: inline-block;
+    border-radius: 5px;
+    background: #fbaf41;
+    color: #fff;
+    padding: 3px 8px;
 }

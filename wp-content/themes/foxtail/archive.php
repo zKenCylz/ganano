@@ -14,7 +14,7 @@ get_header(); ?>
 					<?php if ( function_exists('yoast_breadcrumb') )
 					{yoast_breadcrumb('<div id="breadcrumbs">','</div>');} ?>
 
-					<h1 class="archive-title"><?php the_archive_title() ?></h1>
+					<h3 class="archive-title"><?php the_archive_title() ?></h3>
 
 					<div class="posts-with-thumbnail posts-standard">
 

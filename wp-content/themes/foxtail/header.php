@@ -95,13 +95,7 @@ global $foxtail_options;
             'walker'            => new wp_bootstrap_navwalker())
         );
         ?>
-        <script>
-            jQuery("#main-nav-menu li.menu-item-has-children").mouseover(function() {
-                jQuery(this).find("ul.dropdown-menu").show();
-            }).mouseout(function() {
-                jQuery(this).find("ul.dropdown-menu").hide();
-            });
-        </script>
+
 </div>
 </div>
 <div class="box main-slider">
