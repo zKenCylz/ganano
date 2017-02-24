@@ -99,3 +99,8 @@ global $foxtail_options;
         </script>
 </div>
 </div>
+<div class="box main-slider">
+
+            <?php echo do_shortcode( '[rev_slider alias="main-slider"]' ) ?>
+
+        </div>

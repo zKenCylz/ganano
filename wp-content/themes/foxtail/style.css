@@ -192,7 +192,7 @@ form.search_form button.search_button {
 }
 
 /* Main Nav */
- #main-nav-wrap {
+#main-nav-wrap {
     border-bottom: 2px solid #ef5827;
 }
 nav.nav {
@@ -258,4 +258,33 @@ nav.nav ul#main-nav-menu>li>ul.dropdown-menu > li > a {
 /* FOOTER */
 footer#footer {
     background-color: #f9a618;
+    padding: 20px 0;
+    color: #fff;
+}
+
+footer#footer .row {
+    margin-bottom: 20px;
+}
+/* OWL */
+.owl-carousel {
+    background-color: #fff;
+    border-radius: 14px;
+}
+.owl-controls {
+    position: absolute;
+    top: 0px;
+    width: 112%;
+    margin-left: -6%;
+}
+
+.owl-prev {
+    float: left;
+}
+
+.owl-next {
+    float: right;
+}
+
+.owl-dots {
+    display: none !important;
 }
