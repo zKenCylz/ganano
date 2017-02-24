@@ -9,7 +9,7 @@ global $foxtail_options;
 if (have_posts()) while(have_posts()):
     the_post(); ?>
 <div class="container">
-	<div class="wrap">
+	<div class="wrap test">
 
 		<?php the_content() ?>
 
