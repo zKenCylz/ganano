@@ -4,18 +4,18 @@
  */
 ?>
 
-<article class="clearfix post" role="article" itemscope="" itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+<article class="clearfix post row" role="article" itemscope="" itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <?php foxtail_thumbnail('post-thumbnail') ?>
+    </div>
 
-	<?php foxtail_thumbnail('post-thumbnail') ?>
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+        <h3 class="post-title title" itemprop="name">
+            <a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                <?php the_title(); ?>
+            </a>
+        </h3>
 
-	<h3 class="post-title title" itemprop="name">
-		<a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-			<?php the_title(); ?>
-		</a>
-	</h3>
-
-	<?php foxtail_entry_meta() ?>
-
-	<div class="post-excerpt"><?php the_excerpt() ?></div>
-
+        <div class="post-excerpt"><?php the_excerpt() ?></div>
+    </div>
 </article>

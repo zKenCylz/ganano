@@ -8,10 +8,10 @@ global $foxtail_options;
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="text-align: center;">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-logo.png" alt="">
             </div>
-            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <h4>Sản phẩm khác</h4>
                 <div class="owl-carousel owl-theme">
                     <div class="item"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partner-1.png" alt=""> </div>
@@ -26,7 +26,7 @@ global $foxtail_options;
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <?php dynamic_sidebar( 'sidebar-footer' ) ?>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" style="text-align: center;">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tu-van.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
